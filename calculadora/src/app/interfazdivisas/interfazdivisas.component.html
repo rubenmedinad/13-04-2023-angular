@@ -1,0 +1,10 @@
+<br>
+Numero 1: <input type="number" [(ngModel)]="num">
+<select [(ngModel)]="divisa">
+  <option value="libra">Libra</option>
+  <option value="dolar">Dolar</option>
+  <option value="jen">Jens</option>
+</select>
+<button (click)="convert()">Convertir</button>
+<br><br>
+Su dinero sería <input type="text" disabled [(ngModel)]="resultado">
